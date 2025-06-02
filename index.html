@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#github-api-documentation" class="md-skip">
+        <a href="#github-api-documentation-basic-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -256,9 +256,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#available-sections" class="md-nav__link">
+  <a href="#what-is-an-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Available Sections
+      What is an API?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-it-mean-to-interact-with-the-github-api-using-http-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      What does it mean to 'interact with the GitHub API using HTTP requests'?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why this guide?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
     </span>
   </a>
   
@@ -376,16 +403,27 @@
 
 
 
-<h1 id="github-api-documentation">GitHub API Documentation<a class="headerlink" href="#github-api-documentation" title="Permanent link">&para;</a></h1>
-<p>Welcome to the documentation for the GitHub REST API.</p>
-<p>This guide provides clear and concise examples of how to interact with GitHub's API using HTTP requests.</p>
-<h2 id="available-sections">Available Sections<a class="headerlink" href="#available-sections" title="Permanent link">&para;</a></h2>
+<h1 id="github-api-documentation-basic-guide">GitHub API Documentation (Basic Guide)<a class="headerlink" href="#github-api-documentation-basic-guide" title="Permanent link">&para;</a></h1>
+<p>Welcome to this beginner-friendly documentation for the GitHub REST API.</p>
+<p>This guide is created by a technical writer who is not a developer – and that's the point! If you're curious about APIs but don't know where to start, you're in the right place.</p>
+<h2 id="what-is-an-api">What is an API?<a class="headerlink" href="#what-is-an-api" title="Permanent link">&para;</a></h2>
+<p>An API (Application Programming Interface) allows different programs to talk to each other. In this case, GitHub provides a set of URLs you can send requests to in order to get information about repositories, issues, users, and more.</p>
+<h2 id="what-does-it-mean-to-interact-with-the-github-api-using-http-requests">What does it mean to 'interact with the GitHub API using HTTP requests'?<a class="headerlink" href="#what-does-it-mean-to-interact-with-the-github-api-using-http-requests" title="Permanent link">&para;</a></h2>
+<p>It means you can use tools like your browser, terminal, or Postman to send messages to GitHub and get responses. These messages follow a specific format using URLs and often include tokens (like passwords) to authenticate.</p>
+<p>Example request:
+<div class="highlight"><pre><span></span><code>GET https://api.github.com/users/octocat
+</code></pre></div></p>
+<p>This would return data about the user "octocat".</p>
+<h2 id="why-this-guide">Why this guide?<a class="headerlink" href="#why-this-guide" title="Permanent link">&para;</a></h2>
+<p>This documentation was written with clarity and simplicity in mind. It's for anyone who wants to understand the basics of APIs without being overwhelmed by code.</p>
+<h2 id="sections">Sections<a class="headerlink" href="#sections" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="authentication/">Authentication</a></li>
-<li><a href="repositories/">Repositories</a></li>
-<li><a href="issues/">Issues</a></li>
-<li><a href="users/">Users</a></li>
+<li>Authentication</li>
+<li>Repositories</li>
+<li>Issues</li>
+<li>Users</li>
 </ul>
+<p>Let’s learn together!</p>
 
 
 
