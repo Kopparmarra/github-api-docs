@@ -338,11 +338,11 @@
 
 
 <h1 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h1>
-<p>Authentication ensures that GitHub knows who you are.
-Without authentication, you can only access public data.
-Use a personal access token (PAT) to authenticate.</p>
+<p>Authentication is required to access most parts of the GitHub API. This ensures that only authorized users can read or change data.</p>
+<p>You typically authenticate using a personal access token.</p>
 <div class="highlight"><pre><span></span><code><span class="err">GET /user</span>
-<span class="err">Authorization: token YOUR_PERSONAL_ACCESS_TOKEN</span>
+<span class="err">Authorization: Bearer YOUR_TOKEN</span>
+<span class="err">Host: api.github.com</span>
 </code></pre></div>
 
 
