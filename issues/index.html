@@ -338,11 +338,14 @@
 
 
 <h1 id="issues">Issues<a class="headerlink" href="#issues" title="Permanent link">&para;</a></h1>
-<p>Issues are used to track bugs, features, and tasks in a repository. They are a core part of GitHub collaboration.</p>
-<p>You can list, create, and update issues using the API.</p>
-<div class="highlight"><pre><span></span><code><span class="err">GET /repos/OWNER/REPO/issues</span>
-<span class="err">Host: api.github.com</span>
+<p>Issues are used to track tasks, enhancements, and bugs.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>https://api.github.com/repos/octocat/Hello-World/issues
 </code></pre></div>
+<ul>
+<li>You can create issues, comment on them, and close them using the API.</li>
+<li>Each issue has a title, description, and can be labeled or assigned.</li>
+</ul>
 
 
 

@@ -338,11 +338,14 @@
 
 
 <h1 id="repositories">Repositories<a class="headerlink" href="#repositories" title="Permanent link">&para;</a></h1>
-<p>A repository (or "repo") is where your project's files live on GitHub. Repositories can be public or private.</p>
-<p>You can use the GitHub API to create, list, update, or delete repositories.</p>
-<div class="highlight"><pre><span></span><code><span class="err">GET /users/USERNAME/repos</span>
-<span class="err">Host: api.github.com</span>
+<p>A repository (or "repo") is a project container that holds files, issues, pull requests, and more.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>https://api.github.com/repos/octocat/Hello-World
 </code></pre></div>
+<ul>
+<li>Repos can be public or private.</li>
+<li>You can list, create, update, and delete repositories through the API.</li>
+</ul>
 
 
 

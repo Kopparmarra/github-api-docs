@@ -338,12 +338,14 @@
 
 
 <h1 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h1>
-<p>Authentication is required to access most parts of the GitHub API. This ensures that only authorized users can read or change data.</p>
-<p>You typically authenticate using a personal access token.</p>
-<div class="highlight"><pre><span></span><code><span class="err">GET /user</span>
-<span class="err">Authorization: Bearer YOUR_TOKEN</span>
-<span class="err">Host: api.github.com</span>
+<p>To access GitHub's API, you typically need to authenticate using a personal access token.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: token YOUR_TOKEN&quot;</span><span class="w"> </span>https://api.github.com/user
 </code></pre></div>
+<ul>
+<li>Authentication is required for most write operations and some read operations.</li>
+<li>A token is like a password and should be kept secret.</li>
+</ul>
 
 
 

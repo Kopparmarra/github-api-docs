@@ -336,11 +336,14 @@
 
 
 <h1 id="users">Users<a class="headerlink" href="#users" title="Permanent link">&para;</a></h1>
-<p>Users represent people using GitHub. Each user has a profile and can own repositories.</p>
-<p>You can fetch public user data using the GitHub API.</p>
-<div class="highlight"><pre><span></span><code><span class="err">GET /users/USERNAME</span>
-<span class="err">Host: api.github.com</span>
+<p>GitHub users are individual accounts that can own repositories and collaborate on projects.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>https://api.github.com/users/octocat
 </code></pre></div>
+<ul>
+<li>A user can follow others, create repositories, and star projects.</li>
+<li>Each user has a public profile that can be accessed via the API.</li>
+</ul>
 
 
 
