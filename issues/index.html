@@ -283,19 +283,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Issues
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -307,43 +294,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#key-endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Endpoints
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -388,17 +338,9 @@
 
 
 <h1 id="issues">Issues<a class="headerlink" href="#issues" title="Permanent link">&para;</a></h1>
-<p>Issues are used to track tasks, bugs, and feature requests.</p>
-<h2 id="key-endpoints">Key Endpoints<a class="headerlink" href="#key-endpoints" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>GET /repos/:owner/:repo/issues</code>: List issues</li>
-<li><code>POST /repos/:owner/:repo/issues</code>: Create issue</li>
-</ul>
-<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: token YOUR_TOKEN&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">     </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;title&quot;:&quot;New Issue&quot;, &quot;body&quot;:&quot;Details here&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">     </span>https://api.github.com/repos/username/repo/issues
-</code></pre></div>
+<p>An “issue” is a way to track bugs, enhancements, or tasks in a project.<br />
+It works like a digital to-do list where others can also comment and contribute.<br />
+Issues are commonly used in software projects and documentation workflows.</p>
 
 
 
